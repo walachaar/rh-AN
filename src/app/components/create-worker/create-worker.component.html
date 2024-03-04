@@ -1,0 +1,16 @@
+
+<form (submit)="handleSubmit($event)">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" [(ngModel)]="workerInput.name" required>
+    <label for="phone">phone</label>
+    <input type="text" id="phone" name="phone" [(ngModel)]="workerInput.phone" required>
+    <label for="address">adress</label>
+    <input type="text" id="adress" name="address" [(ngModel)]="workerInput.address" required>
+    <label for="role">role</label>
+    <input type="text" id="role" name="role" [(ngModel)]="workerInput.role" required>
+    <label for="salary">salary</label>
+    <input type="text" id="salary" name="salary" [(ngModel)]="workerInput.salary" required>
+    <button type="submit">Submit</button>
+
+
+</form>
